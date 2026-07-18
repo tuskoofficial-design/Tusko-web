@@ -15,6 +15,7 @@ export default function Home() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     
     // Target date: August 1, 2026 00:00:00 (Local time)
@@ -70,7 +71,7 @@ export default function Home() {
       setStatus("success");
       setMessage("Successfully joined the TUSKO waitlist.");
       setEmail("");
-    } catch (err) {
+    } catch {
       setStatus("error");
       setMessage("Something went wrong. Please try again.");
     }
