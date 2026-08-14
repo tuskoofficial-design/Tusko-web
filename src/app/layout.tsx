@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "TUSKO | Launching Soon",
-  description: "Something bold is coming. Join the waitlist and count down to the launch of TUSKO on August 1, 2026.",
+  description: "Something bold is coming. Join the waitlist and count down to the launch of TUSKO on September 1, 2026.",
 };
 
 export default function RootLayout({

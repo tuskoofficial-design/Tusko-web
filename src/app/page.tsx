@@ -18,8 +18,8 @@ export default function Home() {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     
-    // Target date: August 1, 2026 00:00:00 (Local time)
-    const targetDate = new Date("2026-08-01T00:00:00").getTime();
+    // Target date: September 1, 2026 00:00:00 (Local time)
+    const targetDate = new Date("2026-09-01T00:00:00").getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
